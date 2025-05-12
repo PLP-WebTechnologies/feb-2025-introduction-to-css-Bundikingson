@@ -1,29 +1,52 @@
-# Introduction to CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>Welcome to My Styled Page</h1>
+    </header>
+    
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="content-section">
+            <h2>About This Project</h2>
+            <p>This project demonstrates basic CSS styling techniques including selectors, colors, typography, and spacing.</p>
+            
+            <div class="image-container">
+                <img src="https://via.placeholder.com/400x300" alt="Sample image">
+                <p class="image-caption">A sample placeholder image with styling</p>
+            </div>
+        </section>
+        
+        <section class="content-section">
+            <h2>CSS Features Used</h2>
+            <ul>
+                <li>External CSS linking</li>
+                <li>Multiple selector types</li>
+                <li>Color and typography</li>
+                <li>Spacing with margins and padding</li>
+                <li>Border styling</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 CSS Introduction Project</p>
+    </footer>
+</body>
+</html>
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
-
-## Instructions
-
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
-
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
-
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
-
-Happy Coding! 💻✨
